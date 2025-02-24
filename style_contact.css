@@ -1,0 +1,76 @@
+/* Mengubah latar belakang halaman menjadi hitam */
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 15px 0;
+    background-color: black; /* Latar belakang hitam */
+    transition: background-color 0.3s ease; /* Efek transisi */
+}
+
+
+.logo-box {
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* Kotak putih di belakang tulisan "Kelas Memasak" */
+.title-box {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 1px 5px;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+
+/* Mengatur navbar */
+.nav_button ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_button ul li {
+    list-style: none;
+}
+
+.nav_button ul li a {
+    text-decoration: none;
+    color: rgb(107, 103, 103); /* Semua teks putih */
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.nav_button ul li a:hover {
+    color: #f1ecec; /* Warna emas saat hover */
+}
+.profil
+{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+}
+.desc_1
+{
+    text-align: center;
+    font-size: 22px;
+    margin: auto;
+}
+.medsos i
+{
+    display: block;
+    font-size: 24px;
+}
+hr
+{
+    height: 3px;
+    background-color: rgb(232, 228, 228);
+    margin-bottom: 40px;
+}
